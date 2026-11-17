@@ -19,25 +19,40 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,700..800&family=Inter+Tight:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css?v=3ac8cc31">
+<link rel="stylesheet" href="assets/swell.css?v=1">
 </head>
-<body>
+<body class="sw-sub-page">
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Waldemar Pałka</span><span class="sub">Nagrobki i kamieniarstwo</span></a>
-    <nav class="nav-links">
-      <a href="index.html">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
+<header class="sw-float" aria-label="Nawigacja">
+  <a class="sw-brand" href="index.html" aria-label="Zakład Kamieniarski Waldemar Pałka - strona główna"><b>Pałka</b><span>Zakład kamieniarski</span></a>
+  <nav class="sw-menu" aria-label="Menu główne">
       <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html" class="active" aria-current="page">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <a href="realizacje.html">Realizacje</a>
+      <a href="o-nas.html">O nas</a>
+      <a href="kontakt.html" aria-current="page">Kontakt</a>
+  </nav>
+  <div class="sw-actions">
+    <a class="sw-pill" href="kontakt.html">Zapytaj o wycenę</a>
+    <a class="sw-tel" href="tel:+48604808852">+48 604 808 852</a>
+    <button class="sw-burger" type="button" aria-label="Otwórz menu"><i></i>Menu</button>
   </div>
 </header>
+<div class="sw-drawer" aria-hidden="true" role="dialog" aria-label="Menu">
+  <div class="sw-drawer-top"><small>Zakład kamieniarski Pałka</small><button class="sw-close" type="button" aria-label="Zamknij menu">&times;</button></div>
+  <nav>
+    <a href="index.html">Strona główna</a>
+    <a href="oferta.html">Oferta</a>
+    <a href="realizacje.html">Realizacje</a>
+    <a href="o-nas.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="sw-btns">
+    <a class="sw-btn sw-btn-teal" href="kontakt.html">Zapytaj o wycenę</a>
+    <a class="sw-btn sw-btn-line" href="tel:+48604808852">Zadzwoń: +48 604 808 852</a>
+  </div>
+</div>
 
 <main>
 <section class="pagehead">
@@ -74,33 +89,24 @@
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Zakład Kamieniarski Waldemar Pałka</div>
-        <p>Najpierw zobaczysz projekt i pełną wycenę. Kamień zamawiamy dopiero, gdy wszystko Ci pasuje.</p>
+<footer class="sw-foot">
+  <div class="sw-wrap">
+    <div class="sw-foot-grid">
+      <div>
+        <a class="sw-foot-logo" href="index.html"><b>Pałka</b><span>Zakład kamieniarski</span></a>
+        <p class="sw-foot-addr">ul. 1 Maja 121, 26-220 Stąporków<br><a href="tel:+48604808852">+48 604 808 852</a> · <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Jak dojechać</a></p>
       </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+      <nav class="sw-foot-nav" aria-label="Stopka">
         <a href="index.html">Strona główna</a>
-        <a href="realizacje.html">Realizacje</a>
         <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48604808852">+48 604 808 852</a>
-        <p>ul. 1 Maja 121, 26-220 Stąporków</p>
-        <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener" aria-label="Google - Zakład Kamieniarski Waldemar Pałka"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
-      </div>
+        <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Wizytówka Google</a>
+      </nav>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Zakład Kamieniarski Waldemar Pałka</span>
+    <div class="sw-foot-bot">
+      <span>© 2026 Zakład Kamieniarski Waldemar Pałka · Stąporków</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
@@ -109,5 +115,6 @@
 <div class="demo-wazne" data-do="2026-11-23" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/swell.js"></script>
 </body>
 </html>

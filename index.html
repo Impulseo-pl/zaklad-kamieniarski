@@ -20,139 +20,368 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": "Zakład Kamieniarski Waldemar Pałka", "url": "https://kris20032.github.io/zaklad-kamieniarski/", "telephone": "+48604808852", "image": "https://kris20032.github.io/zaklad-kamieniarski/img/og.jpg", "areaServed": "Stąporków", "sameAs": ["https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,700..800&family=Inter+Tight:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css?v=3ac8cc31">
+<link rel="stylesheet" href="assets/swell.css?v=1">
 <meta name="nb-deploy" content="7948837c92fe">
 </head>
-<body>
-
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Waldemar Pałka</span><span class="sub">Nagrobki i kamieniarstwo</span></a>
-    <nav class="nav-links">
-      <a href="index.html" class="active" aria-current="page">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
+<body class="sw sw-home">
+<header class="sw-float" aria-label="Nawigacja">
+  <a class="sw-brand" href="index.html" aria-label="Zakład Kamieniarski Waldemar Pałka - strona główna"><b>Pałka</b><span>Zakład kamieniarski</span></a>
+  <nav class="sw-menu" aria-label="Menu główne">
       <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
+      <a href="realizacje.html">Realizacje</a>
+      <a href="o-nas.html">O nas</a>
       <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="sw-actions">
+    <a class="sw-pill" href="kontakt.html">Zapytaj o wycenę</a>
+    <a class="sw-tel" href="tel:+48604808852">+48 604 808 852</a>
+    <button class="sw-burger" type="button" aria-label="Otwórz menu"><i></i>Menu</button>
   </div>
 </header>
+<div class="sw-drawer" aria-hidden="true" role="dialog" aria-label="Menu">
+  <div class="sw-drawer-top"><small>Zakład kamieniarski Pałka</small><button class="sw-close" type="button" aria-label="Zamknij menu">&times;</button></div>
+  <nav>
+    <a href="index.html">Strona główna</a>
+    <a href="oferta.html">Oferta</a>
+    <a href="realizacje.html">Realizacje</a>
+    <a href="o-nas.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="sw-btns">
+    <a class="sw-btn sw-btn-teal" href="kontakt.html">Zapytaj o wycenę</a>
+    <a class="sw-btn sw-btn-line" href="tel:+48604808852">Zadzwoń: +48 604 808 852</a>
+  </div>
+</div>
 
 <main>
-<section class="hero-cine">
-  <img src="img/hero.jpg" fetchpriority="high" data-rotate="img/g9.jpg|img/g8.jpg" alt="Zakład Kamieniarski Waldemar Pałka - Zakład kamieniarski w Stąporkowie. Nagrobki i pomniki. " width="1400" height="950">
-  <div class="wrap">
-    <div class="hero-copy">
-      <span class="eyebrow">Nagrobki i kamieniarstwo</span>
-      <h1>Zakład kamieniarski w Stąporkowie. Nagrobki i pomniki. </h1>
-      <p class="lead">Najpierw zobaczysz projekt i pełną wycenę. Kamień zamawiamy dopiero, gdy wszystko Ci pasuje.</p>
-      <div class="hero-actions">
-        <a href="realizacje.html" class="btn btn-accent">Zobacz realizacje <span class="arr">→</span></a>
-        <a href="kontakt.html" class="btn btn-ghost btn-on-dark">Zapytaj o wycenę</a>
+<section class="sw-hero" aria-labelledby="hero-title">
+  <img src="img/hero.jpg" fetchpriority="high" alt="Granitowy krzyż nagrobny na tle nieba" width="2400" height="1600">
+  <div class="sw-mark" aria-hidden="true"><span>P</span><span>A</span><span>Ł</span><span>K</span><span>A</span></div>
+  <div class="sw-hero-nav">
+    <nav class="sw-menu" aria-label="Menu główne">
+      <a href="oferta.html">Oferta</a>
+      <a href="realizacje.html">Realizacje</a>
+      <a href="o-nas.html">O nas</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div class="sw-actions">
+      <a class="sw-pill" href="kontakt.html">Zapytaj o wycenę</a>
+      <a class="sw-tel" href="tel:+48604808852">+48 604 808 852</a>
+      <button class="sw-burger" type="button" aria-label="Otwórz menu"><i></i>Menu</button>
+    </div>
+  </div>
+  <div class="sw-hero-copy">
+    <h1 id="hero-title">Nagrobki z granitu w Stąporkowie, od projektu do montażu</h1>
+    <p>Najpierw zobaczysz projekt i pełną wycenę. Kamień zamawiamy dopiero, gdy wszystko Ci pasuje.</p>
+    <div class="sw-btns">
+      <a class="sw-btn sw-btn-teal" href="kontakt.html">Zapytaj o wycenę</a>
+      <a class="sw-btn sw-btn-line" href="tel:+48604808852">Zadzwoń: +48 604 808 852</a>
+    </div>
+  </div>
+  <div class="sw-trust">
+    <div class="sw-wrap">
+      <div class="sw-trust-items">
+        <div class="sw-trust-item"><b>Projekt</b><span>zanim zamówimy kamień</span></div>
+        <div class="sw-trust-item"><b>Wycena</b><span>rozpisana na pozycje</span></div>
+        <div class="sw-trust-item"><b>Montaż</b><span>na zbrojonym fundamencie</span></div>
+        <div class="sw-trust-item"><b>26-220</b><span>własny zakład w Stąporkowie</span></div>
+      </div>
+      <span class="sw-trust-note">Zdjęcia poglądowe</span>
+    </div>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-paper" aria-labelledby="about-title">
+  <div class="sw-wrap sw-about">
+    <div class="reveal">
+      <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>O nas</span>
+      <h2 class="sw-h2" id="about-title">Stawiamy pomniki, które nie ruszą się po zimie.</h2>
+      <p>Nagrobek robimy w całości u siebie: projekt z wymiarami, cięcie i polerowanie granitu, liternictwo, a na końcu montaż na cmentarzu. Wszystkie etapy robimy sami, więc za każdy odpowiadamy my.</p>
+      <p>Fundament zbroimy i dajemy mu związać. Dzięki temu pomnik stoi prosto także po kilku zimach, a rodzina nie musi wracać z poprawkami.</p>
+      <div class="sw-btns">
+        <a class="sw-btn sw-btn-ink" href="o-nas.html">Poznaj nas</a>
+        <a class="sw-link" href="realizacje.html">Galeria nagrobków <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <figure class="sw-fig reveal">
+      <img src="img/s-pracownia.jpg" alt="Kamieniarz tnie granitową płytę" loading="lazy" width="1600" height="1185" decoding="async">
+      <figcaption><span>Obróbka kamienia w zakładzie</span><em>Stąporków · ul. 1 Maja 121</em></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-white" aria-labelledby="rules-title">
+  <div class="sw-wrap sw-rules">
+    <div class="sw-rules-left reveal">
+      <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Nasza zasada</span>
+      <h2 class="sw-h2" id="rules-title">Najpierw rozmowa, potem kamień.</h2>
+      <span class="sw-quote-mark" aria-hidden="true"></span>
+      <p class="sw-big-line">Nie zamawiamy kamienia, dopóki nie zobaczysz projektu i nie zaakceptujesz ceny.</p>
+      <p class="sw-small">Bezpłatna wycena, projekt przed decyzją i żadnego pośpiechu.</p>
+      <div class="sw-btns">
+        <a class="sw-btn sw-btn-teal" href="kontakt.html">Zapytaj o wycenę</a>
+        <a class="sw-btn sw-btn-line ink" href="tel:+48604808852">+48 604 808 852</a>
+      </div>
+    </div>
+    <div class="sw-rules-list reveal">
+      <div class="sw-rules-top"><span>Co dostajesz przed decyzją</span><span>3 rzeczy</span></div>
+      <div class="sw-rule">
+        <p>Projekt nagrobka z wymiarami, dobrany do kwatery i sąsiednich pomników. Widzisz kształt, kamień i rozmieszczenie napisów, zanim cokolwiek zamówimy.</p>
+        <div class="meta"><i>/01</i><b>Projekt</b><span>· przed zamówieniem</span></div>
+      </div>
+      <div class="sw-rule">
+        <p>Cenę rozpisaną na pozycje: kamień, obróbka, liternictwo, fundament, montaż. Wiesz, za co płacisz i gdzie można coś zmienić.</p>
+        <div class="meta"><i>/02</i><b>Wycena</b><span>· pozycja po pozycji</span></div>
+      </div>
+      <div class="sw-rule">
+        <p>Uczciwą ocenę starego nagrobka. Jeśli kamień nadaje się już tylko do wymiany, mówimy to wprost i nie bierzemy pieniędzy za renowację, która nie potrwa.</p>
+        <div class="meta"><i>/03</i><b>Szczerość</b><span>· także przy renowacji</span></div>
       </div>
     </div>
   </div>
 </section>
-<section class="strip n-5" style="padding-block:0">
-  <div class="wrap">
-    <div class="item reveal"><div class="k">Własny zakład i montaż</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Formalności z cmentarzem</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Projekt przed decyzją</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Cena rozpisana na pozycje</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Granit na pokolenia</div><div class="v"></div></div>
-  </div>
-</section>
-<section>
-  <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g1.jpg" alt="Zakład Kamieniarski Waldemar Pałka - realizacja" loading="lazy" width="1400" height="950" decoding="async"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">O nas</span>
-      <h2>Jak pracujemy</h2>
-      <p class="muted">Pracujemy w Stąporkowie i znamy tutejsze cmentarze - wiemy, gdzie grunt długo osiada i jak ustawić pomnik, żeby nie ruszył się po zimie. Większość rodzin przychodzi do nas z polecenia.</p>
-      <p class="muted">W tym fachu innej reklamy nie ma.</p>
-      <a href="o-nas.html" class="btn btn-ghost">Poznaj nas <span class="arr">→</span></a>
-    </div>
-  </div>
-</section>
-<section class="gateways-band">
-  <div class="wrap">
-    <div class="gateways">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g2.jpg" alt="Nagrobki pojedyncze" loading="lazy" width="1400" height="950" decoding="async"><span class="g-ttl">Nagrobki pojedyncze</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g3.jpg" alt="Nagrobki podwójne i rodzinne" loading="lazy" width="1400" height="950" decoding="async"><span class="g-ttl">Nagrobki podwójne i rodzinne</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g4.jpg" alt="Grobowce i piwnice" loading="lazy" width="1400" height="950" decoding="async"><span class="g-ttl">Grobowce i piwnice</span></a>
-    </div>
-  </div>
-</section>
+
 <section class="stopklatka" aria-hidden="true">
-  <div class="stk-bg" style="background-image:url(img/g7.jpg)"></div>
+  <div class="stk-bg" style="background-image:url(img/s-granit.jpg)"></div>
 </section>
-<section>
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Realizacje</span>
-      <h2>Nagrobki i pomniki</h2>
-      <p>Nagrobki pojedyncze i podwójne, płyty, lampiony i dodatki z granitu. Wykonanie i montaż na cmentarzu.</p>
+
+<section class="sw-sec sw-bg-ink sw-pattern sw-on-dark" aria-labelledby="proof-title">
+  <div class="sw-wrap">
+    <div class="sw-proof-head reveal">
+      <div>
+        <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Jak pracujemy</span>
+        <h2 class="sw-h2" id="proof-title">Od rozmowy do montażu.</h2>
+      </div>
+      <p>Cztery kroki, a na każdym wiesz, co się dzieje. Kliknij krok, żeby zobaczyć szczegóły.</p>
     </div>
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g5.jpg" alt="Zakład Kamieniarski Waldemar Pałka" loading="lazy" width="1400" height="950" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Zakład Kamieniarski Waldemar Pałka" loading="lazy" width="1400" height="950" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/about.jpg" alt="Zakład Kamieniarski Waldemar Pałka" loading="lazy" width="1400" height="950" decoding="async"></div>
+    <div class="sw-proof reveal">
+      <div>
+        <div class="sw-proof-media">
+          <img src="img/g7.jpg" alt="Granitowy krzyż przy ciemnym nagrobku zimą" loading="lazy" width="1600" height="1066" decoding="async">
+          <span class="sw-tag">Zdjęcie poglądowe</span>
+        </div>
+        <div class="sw-proof-cap"><span>Rozmowa i pomiar kwatery</span><span>01 / 04</span></div>
+        <div class="sw-steps" role="tablist" aria-label="Kroki">
+          <button class="sw-step" type="button" role="tab" aria-selected="true" data-n="Rozmowa i pomiar kwatery" data-k="Krok /01 · Rozmowa i pomiar" data-a="Telefon albo wizyta w zakładzie" data-b="Ustalamy cmentarz, kwaterę i to, czego potrzebujesz" data-c="Bezpłatnie i bez zobowiązań"><small>KROK /01</small><span>Rozmowa</span></button>
+          <button class="sw-step" type="button" role="tab" aria-selected="false" data-n="Projekt i wycena na pozycje" data-k="Krok /02 · Projekt i wycena" data-a="Projekt z wymiarami i napisami" data-b="Cena rozpisana na pozycje, razem z terminem" data-c="Kamień zamawiamy dopiero po Twojej akceptacji"><small>KROK /02</small><span>Projekt</span></button>
+          <button class="sw-step" type="button" role="tab" aria-selected="false" data-n="Obróbka i liternictwo w zakładzie" data-k="Krok /03 · Wykonanie" data-a="Własny zakład w Stąporkowie" data-b="Cięcie, polerowanie kamienia i liternictwo" data-c="Według zaakceptowanego projektu"><small>KROK /03</small><span>Wykonanie</span></button>
+          <button class="sw-step" type="button" role="tab" aria-selected="false" data-n="Fundament i montaż na cmentarzu" data-k="Krok /04 · Montaż" data-a="Zbrojony fundament, któremu dajemy związać" data-b="Ustawienie nagrobka i formalności z cmentarzem" data-c="Odbiór na miejscu, razem z Tobą"><small>KROK /04</small><span>Montaż</span></button>
+        </div>
+      </div>
+      <aside class="sw-panel" aria-live="polite">
+        <div class="sw-panel-kicker">Krok /01 · Rozmowa i pomiar</div>
+        <dl>
+          <dt>Gdzie</dt><dd>Telefon albo wizyta w zakładzie</dd>
+          <dt>Co robimy</dt><dd>Ustalamy cmentarz, kwaterę i to, czego potrzebujesz</dd>
+          <dt>Ważne</dt><dd>Bezpłatnie i bez zobowiązań</dd>
+        </dl>
+        <a class="sw-link" href="oferta.html">Zobacz ofertę <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </aside>
     </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Pełna galeria <span class="arr">→</span></a></div>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Zacznijmy od krótkiej rozmowy.</h2>
-      <p>Odezwij się z pytaniem - odpowiemy konkretnie, nic za to nie płacisz.</p>
+
+<section class="sw-sec sw-bg-paper" aria-labelledby="work-title" style="padding-bottom:clamp(3rem,5vw,5rem)">
+  <div class="sw-wrap sw-center reveal">
+    <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Galeria</span>
+    <h2 class="sw-h2" id="work-title">Nagrobki, płyty i dodatki z granitu</h2>
+    <p>Nagrobki pojedyncze i podwójne, lampiony, wazony i tablice. Każdy element dobieramy kolorem i fakturą do pomnika.</p>
+    <div class="sw-btns">
+      <a class="sw-btn sw-btn-ink sw-btn-caps" href="realizacje.html">Zobacz galerię</a>
+      <a class="sw-btn sw-btn-line ink sw-btn-caps" href="kontakt.html">Zapytaj o wycenę</a>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48604808852" class="btn btn-ghost btn-ghost-cta">+48 604 808 852</a>
+  </div>
+  <div class="sw-ribbon" aria-label="Galeria zdjęć">
+    <a href="realizacje.html"><img src="img/g1.jpg" alt="Granitowy nagrobek z lampionem i kwiatami zimą" loading="lazy" width="1600" height="1086" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g2.jpg" alt="Znicze na granitowej płycie jesienią" loading="lazy" width="1400" height="950" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g4.jpg" alt="Lampiony na polerowanym granicie" loading="lazy" width="1600" height="1086" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g6.jpg" alt="Znicze na nagrobku zimą" loading="lazy" width="1400" height="950" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g5.jpg" alt="Kwiaty i lampiony na nagrobku" loading="lazy" width="1400" height="950" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g9.jpg" alt="Granitowy nagrobek pod śniegiem" loading="lazy" width="1600" height="1066" decoding="async"></a>
+    <a href="realizacje.html"><img src="img/g8.jpg" alt="Róża na granitowej płycie z napisem" loading="lazy" width="1600" height="1066" decoding="async"></a>
+  </div>
+  <p class="sw-ribbon-note">Zdjęcia poglądowe</p>
+</section>
+
+<section class="sw-sec sw-bg-white" aria-labelledby="cost-title">
+  <div class="sw-wrap sw-cost">
+    <div class="sw-cost-copy reveal">
+      <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Wycena</span>
+      <h2 class="sw-h2" id="cost-title">Z czego składa się cena nagrobka?</h2>
+      <p>Dwie wyceny tego samego pomnika potrafią się mocno różnić, a jedna kwota bez rozpisania niewiele mówi. U nas każda pozycja jest osobno, więc widzisz, za co płacisz i gdzie da się coś zmienić, zanim cokolwiek zamówimy.</p>
+      <a class="sw-btn sw-btn-teal" href="kontakt.html">Poproś o wycenę</a>
+    </div>
+    <div class="sw-bids reveal" aria-label="Przykładowy układ wyceny">
+      <div class="sw-bid sw-bid-b">
+        <div class="k">Wycena B · nagrobek pojedynczy</div>
+        <div class="row"><span>„Nagrobek komplet”</span><b>jedna kwota</b></div>
+        <small>Jedna linijka. Bez rozpisania.</small>
+      </div>
+      <span class="sw-bids-note">Przykładowy układ wyceny</span>
+      <div class="sw-bid sw-bid-a">
+        <div class="k">Wycena u nas · ten sam nagrobek</div>
+        <ul>
+          <li><span>Kamień i obróbka</span><em>pozycja</em></li>
+          <li><span>Liternictwo i dodatki</span><em>pozycja</em></li>
+          <li><span>Fundament zbrojony</span><em>pozycja</em></li>
+          <li><span>Demontaż starego nagrobka</span><em>jeśli trzeba</em></li>
+          <li><span>Transport i montaż</span><em>pozycja</em></li>
+        </ul>
+        <div class="tot"><span>Razem</span><b>znane przed zamówieniem</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-paper" aria-labelledby="svc-title">
+  <div class="sw-wrap">
+    <div class="sw-head-split reveal">
+      <div>
+        <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Oferta</span>
+        <h2 class="sw-h2" id="svc-title">Wszystko, czego potrzeba przy grobie.</h2>
+      </div>
+      <div>
+        <p>Od nowego nagrobka po dopis na istniejącej płycie. Robimy od początku do końca sami, łącznie z montażem na cmentarzu.</p>
+        <a class="sw-link" href="oferta.html">Cała oferta <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="sw-svc">
+      <section class="sw-card reveal" aria-labelledby="c1">
+        <div class="sw-card-top">
+          <img src="img/s-nagrobki.jpg" alt="Granitowy nagrobek z wazonem i różami" loading="lazy" width="1600" height="1000" decoding="async">
+          <div class="sw-card-ttl"><h3 id="c1">Nowe nagrobki</h3><a href="oferta.html" aria-label="Nowe nagrobki - oferta"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          <p>Pojedyncze, podwójne i rodzinne, grobowce. Projekt, obróbka, liternictwo i montaż w jednych rękach.</p>
+        </div>
+        <div class="sw-subs">
+          <a class="sw-sub" href="oferta.html"><h4>Nagrobki pojedyncze <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Od projektu z wymiarami po montaż na zbrojonym fundamencie.</p></a>
+          <a class="sw-sub" href="oferta.html"><h4>Podwójne i rodzinne <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Pełne zbrojenie pod cięższą płytę, czytelne napisy obu osób.</p></a>
+          <a class="sw-sub" href="oferta.html"><h4>Grobowce i piwnice <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Komory murowane pod wymiar kwatery, z odprowadzeniem wody.</p></a>
+          <a class="sw-sub" href="oferta.html"><h4>Wazony, lampiony, tablice <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Z kamienia zgranego z pomnikiem, mocowane na stałe.</p></a>
+        </div>
+      </section>
+      <section class="sw-card reveal" aria-labelledby="c2">
+        <div class="sw-card-top">
+          <img src="img/s-liternictwo.jpg" alt="Ręczna obróbka kamienia dłutem" loading="lazy" width="1600" height="1000" decoding="async">
+          <div class="sw-card-ttl"><h3 id="c2">Dopisy i renowacje</h3><a href="oferta.html" aria-label="Dopisy i renowacje - oferta"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          <p>Nowe napisy, odnowione złocenia i odświeżone płyty. Grób znów wygląda na zadbany.</p>
+        </div>
+        <div class="sw-subs">
+          <a class="sw-sub" href="oferta.html"><h4>Liternictwo i dopisy <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Nowy napis spójny z tym, który już jest na płycie.</p></a>
+          <a class="sw-sub" href="oferta.html"><h4>Odnowienie złoceń <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Stary napis czyścimy i malujemy na nowo, widać go z daleka.</p></a>
+          <a class="sw-sub" href="oferta.html"><h4>Renowacja i czyszczenie <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Uzupełnione ubytki, zaimpregnowana płyta, odnowione litery.</p></a>
+          <a class="sw-sub" href="kontakt.html"><h4>Formalności z cmentarzem <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></h4><p>Ustalenia z zarządcą cmentarza są po naszej stronie.</p></a>
+        </div>
+      </section>
+    </div>
+    <p class="sw-svc-note reveal">Nie wiesz, czego potrzebujesz? <a href="kontakt.html">Zapytaj o wycenę</a> albo zadzwoń: <a href="tel:+48604808852">+48 604 808 852</a>.</p>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-white" aria-labelledby="why-title" style="overflow:clip">
+  <div class="sw-wrap sw-why">
+    <div class="reveal">
+      <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Dlaczego my</span>
+      <h2 class="sw-h2" id="why-title">Dlaczego warto zrobić nagrobek u nas.</h2>
+      <div class="sw-why-grid">
+        <div class="sw-why-item"><small>/01</small><h3>Mówimy wprost</h3><p>Jeśli wystarczy renowacja, nie sprzedamy Ci nowego nagrobka.</p></div>
+        <div class="sw-why-item"><small>/02</small><h3>Zbrojony fundament</h3><p>Dajemy mu związać, dlatego pomnik stoi prosto także po latach.</p></div>
+        <div class="sw-why-item"><small>/03</small><h3>Znamy tutejsze cmentarze</h3><p>Wiemy, gdzie grunt długo osiada i jak to uwzględnić.</p></div>
+        <div class="sw-why-item"><small>/04</small><h3>Własny zakład</h3><p>Projekt, obróbka, liternictwo i montaż robimy sami.</p></div>
+      </div>
+    </div>
+    <figure class="sw-why-fig reveal">
+      <img src="img/s-krzyz.jpg" alt="Krzyż na polerowanym czarnym granicie" loading="lazy" width="1200" height="1500" decoding="async">
+      <figcaption class="sw-chip">Polerowany granit · zdjęcie poglądowe</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-sunken" aria-labelledby="area-title">
+  <div class="sw-wrap">
+    <div class="reveal">
+      <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Dojazd</span>
+      <h2 class="sw-h2" id="area-title" style="max-width:20ch">Zakład w Stąporkowie, przy ul. 1 Maja 121</h2>
+    </div>
+    <div class="sw-area reveal">
+      <div>
+        <h3>Stąporków</h3>
+        <a class="tel" href="tel:+48604808852">+48 604 808 852</a>
+        <p>ul. 1 Maja 121<br>26-220 Stąporków</p>
+        <a class="go" href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Jak dojechać <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div>
+        <h3>Wycena</h3>
+        <a class="tel" href="tel:+48604808852">Zadzwoń</a>
+        <p>Opowiedz, czego potrzebujesz. Odpowiemy konkretnie i umówimy się na projekt.</p>
+        <a class="go" href="kontakt.html">Kontakt <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="sw-map">
+        <iframe title="Mapa dojazdu - Zakład Kamieniarski Waldemar Pałka, Stąporków" src="https://maps.google.com/maps?q=51.137702%2C20.545329&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sw-sec sw-bg-white" aria-labelledby="faq-title">
+  <div class="sw-wrap">
+    <div class="sw-head-split reveal">
+      <div>
+        <span class="sw-eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><path d="M5 4h9l3 3H8z"/><path d="M3 10h12l3 3H6z" opacity=".75"/><path d="M6 16h9l3 3H9z" opacity=".55"/></g></svg>Pytania</span>
+        <h2 class="sw-h2" id="faq-title">O co pytają nas najczęściej</h2>
+      </div>
+      <p>Krótkie odpowiedzi na pytania o nagrobki, terminy i to, jak pracujemy.</p>
+    </div>
+    <div class="sw-faq reveal">
+      <details><summary><small>/01</small><span>Czy robicie nagrobek od projektu do montażu?</span><i aria-hidden="true">+</i></summary><p>Tak. Projekt z wymiarami, cięcie i polerowanie kamienia, liternictwo, fundament i montaż na cmentarzu robimy sami, we własnym zakładzie.</p></details>
+      <details><summary><small>/02</small><span>Czy zobaczę projekt, zanim zapłacę za kamień?</span><i aria-hidden="true">+</i></summary><p>Tak. Najpierw dostajesz projekt i wycenę rozpisaną na pozycje. Kamień zamawiamy dopiero wtedy, gdy wszystko Ci pasuje.</p></details>
+      <details><summary><small>/03</small><span>Kiedy można postawić nagrobek po pogrzebie?</span><i aria-hidden="true">+</i></summary><p>Zwykle warto odczekać, aż ziemia w kwaterze osiądzie. Na miejscu ocenimy grunt i podpowiemy dobry termin montażu.</p></details>
+      <details><summary><small>/04</small><span>Czy załatwiacie formalności na cmentarzu?</span><i aria-hidden="true">+</i></summary><p>Tak, ustalenia z zarządcą cmentarza są po naszej stronie. Powiemy, czego potrzebujemy od rodziny.</p></details>
+      <details><summary><small>/05</small><span>Czy dorobicie napis na istniejącym nagrobku?</span><i aria-hidden="true">+</i></summary><p>Tak. Dorabiamy nowe napisy i odnawiamy stare złocenia, tak żeby całość była spójna.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="sw-final" aria-labelledby="final-title">
+  <div class="sw-wrap reveal">
+    <h2 id="final-title">Zacznijmy od bezpłatnej wyceny.</h2>
+    <p>Opowiedz, czego potrzebujesz. Odpowiemy konkretnie i przygotujemy wycenę rozpisaną na pozycje.</p>
+    <div class="sw-btns">
+      <a class="sw-btn sw-btn-teal" href="kontakt.html">Zapytaj o wycenę</a>
+      <a class="sw-btn sw-btn-line" href="tel:+48604808852">Zadzwoń: +48 604 808 852</a>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Zakład Kamieniarski Waldemar Pałka</div>
-        <p>Najpierw zobaczysz projekt i pełną wycenę. Kamień zamawiamy dopiero, gdy wszystko Ci pasuje.</p>
+<footer class="sw-foot">
+  <div class="sw-wrap">
+    <div class="sw-foot-grid">
+      <div>
+        <a class="sw-foot-logo" href="index.html"><b>Pałka</b><span>Zakład kamieniarski</span></a>
+        <p class="sw-foot-addr">ul. 1 Maja 121, 26-220 Stąporków<br><a href="tel:+48604808852">+48 604 808 852</a> · <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Jak dojechać</a></p>
       </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+      <nav class="sw-foot-nav" aria-label="Stopka">
         <a href="index.html">Strona główna</a>
-        <a href="realizacje.html">Realizacje</a>
         <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48604808852">+48 604 808 852</a>
-        <p>ul. 1 Maja 121, 26-220 Stąporków</p>
-        <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener" aria-label="Google - Zakład Kamieniarski Waldemar Pałka"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
-      </div>
+        <a href="https://www.google.com/maps/place/Pa%C5%82ka+Waldemar.+Zak%C5%82ad+kamieniarski/@51.137702,20.545329,17z/data=!4m6!3m5!1s0x471834a902b270f3:0xb15a72b386cd75cb!8m2!3d51.137702!4d20.545329" target="_blank" rel="noopener">Wizytówka Google</a>
+      </nav>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Zakład Kamieniarski Waldemar Pałka</span>
+    <div class="sw-foot-bot">
+      <span>© 2026 Zakład Kamieniarski Waldemar Pałka · Stąporków</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
+
 <div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o wycenę</a><a class="sr-call" href="tel:+48604808852" aria-label="Zadzwoń"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
 <div class="demo-wazne" data-do="2026-11-23" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/swell.js"></script>
 </body>
 </html>
